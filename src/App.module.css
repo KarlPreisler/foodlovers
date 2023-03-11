@@ -38,6 +38,7 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: #228022;
 }
 
 a:hover i {
