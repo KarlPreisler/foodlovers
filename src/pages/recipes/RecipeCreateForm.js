@@ -108,17 +108,49 @@ function RecipeCreateForm() {
           {message}
         </Alert>
       ))}
+
       <Form.Group controlId="formRecipeCookingTime">
         <Form.Label>Cooking Time</Form.Label>
         <Form.Control
           type="time"
-          placeholder="Enter recipe cooking time"
           name="cooking_time"
           value={cooking_time}
           onChange={handleChange}
           isInvalid={!!errors.cooking_time}
         />
       </Form.Group>
+
+      <Form.Group>
+        <Form.Label>Ingredients</Form.Label>
+        <Form.Control
+          as="textarea"
+          rows={4}
+          name="ingredients"
+          value={ingredients}
+          onChange={handleChange}
+        />
+      </Form.Group>
+      {errors?.content?.map((message, idx) => (
+        <Alert variant="warning" key={idx}>
+          {message}
+        </Alert>
+      ))}
+
+      <Form.Group>
+        <Form.Label>Steps</Form.Label>
+        <Form.Control
+          as="textarea"
+          rows={4}
+          name="steps"
+          value={steps}
+          onChange={handleChange}
+        />
+      </Form.Group>
+      {errors?.content?.map((message, idx) => (
+        <Alert variant="warning" key={idx}>
+          {message}
+        </Alert>
+      ))}
 
       <Button
         className={`${btnStyles.Button} ${btnStyles.Blue}`}
