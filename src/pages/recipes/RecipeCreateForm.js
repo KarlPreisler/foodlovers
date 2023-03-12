@@ -29,8 +29,9 @@ function RecipeCreateForm() {
     ingredients: "",
     steps: "",
     image: "",
+    category: "",
   });
-  const { title, desc, cooking_time, ingredients, steps, image } = recipeData;
+  const { title, desc, cooking_time, ingredients, steps, image, category } = recipeData;
 
   const imageInput = useRef(null);
   const history = useHistory();
@@ -62,6 +63,7 @@ function RecipeCreateForm() {
     formData.append("ingredients", ingredients);
     formData.append("steps", steps);
     formData.append("image", imageInput.current.files[0]);
+    formData.append("category", category);
 
     try {
       const { data } = await axiosReq.post("/recipes/", formData);
@@ -106,7 +108,17 @@ function RecipeCreateForm() {
           {message}
         </Alert>
       ))}
-      
+      <Form.Group controlId="formRecipeCookingTime">
+        <Form.Label>Cooking Time</Form.Label>
+        <Form.Control
+          type="time"
+          placeholder="Enter recipe cooking time"
+          name="cooking_time"
+          value={cooking_time}
+          onChange={handleChange}
+          isInvalid={!!errors.cooking_time}
+        />
+      </Form.Group>
 
       <Button
         className={`${btnStyles.Button} ${btnStyles.Blue}`}
