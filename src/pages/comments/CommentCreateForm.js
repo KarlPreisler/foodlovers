@@ -11,9 +11,14 @@ import { axiosRes } from "../../api/axiosDefaults";
 function CommentCreateForm(props) {
   const { recipe, setRecipe, setComments, profileImage, profile_id } = props;
   const [content, setContent] = useState("");
+  const [rating, setRating] = useState("");
 
-  const handleChange = (event) => {
+  const handleContentChange = (event) => {
     setContent(event.target.value);
+  };
+
+  const handleRatingChange = (event) => {
+    setRating(event.target.value);
   };
 
   const handleSubmit = async (event) => {
@@ -22,6 +27,7 @@ function CommentCreateForm(props) {
       const { data } = await axiosRes.post("/comments/", {
         content,
         recipe,
+        rating,
       });
       setComments((prevComments) => ({
         ...prevComments,
@@ -36,6 +42,7 @@ function CommentCreateForm(props) {
         ],
       }));
       setContent("");
+      setRating("");
     } catch (err) {
       console.log(err);
     }
@@ -53,10 +60,24 @@ function CommentCreateForm(props) {
             placeholder="my comment..."
             as="textarea"
             value={content}
-            onChange={handleChange}
+            onChange={handleContentChange}
             rows={2}
           />
         </InputGroup>
+        <Form.Control
+          as="select"
+          className={styles.Form}
+          name="rating"
+          value={rating}
+          onChange={handleRatingChange}
+        >
+          <option value="">Select rating</option>
+          <option value="1">1 star</option>
+          <option value="2">2 stars</option>
+          <option value="3">3 stars</option>
+          <option value="4">4 stars</option>
+          <option value="5">5 stars</option>
+        </Form.Control>
       </Form.Group>
       <button
         className={`${styles.Button} btn d-block ml-auto`}
