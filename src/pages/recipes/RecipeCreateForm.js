@@ -96,6 +96,7 @@ function RecipeCreateForm() {
       <Form.Group>
         <Form.Label>Description</Form.Label>
         <Form.Control
+          type="text"
           as="textarea"
           rows={4}
           name="desc"
