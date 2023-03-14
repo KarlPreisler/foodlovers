@@ -58,7 +58,7 @@ function RecipeCreateForm() {
     const formData = new FormData();
 
     formData.append("title", title);
-    formData.append("decs", desc);
+    formData.append("desc", desc);
     formData.append("cooking_time", cooking_time);
     formData.append("ingredients", ingredients);
     formData.append("steps", steps);
