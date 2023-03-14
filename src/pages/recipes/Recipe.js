@@ -111,7 +111,6 @@ const Recipe = (props) => {
       1) : cooking_time.split(":")[1]) + " minutes" : ""}`}
   </Card.Text>
 )}
-        <br/>
         <i id="list-icon" class="fa-solid fa-list"></i>
         <h5 style={{display: "inline"}}>Ingredients</h5>
         {ingredients && <Card.Text>{ingredients}</Card.Text>}
