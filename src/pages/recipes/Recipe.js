@@ -101,14 +101,14 @@ const Recipe = (props) => {
       <Card.Body>
         {title && <Card.Title className="text-center">{title}</Card.Title>}
         {desc && <Card.Text>{desc}</Card.Text>}
-        <i class="fas fa-clock"></i>
-        <h4>Cooking time</h4>
+        <i id="clock-icon" class="fas fa-clock" ></i>
+        <h5 style={{display: "inline"}}>Cooking time</h5>
         {cooking_time && <Card.Text>{cooking_time}</Card.Text>}
-        <i class="fa-solid fa-list"></i>
-        <h4>Ingredients</h4>
+        <i id="list-icon" class="fa-solid fa-list"></i>
+        <h5 style={{display: "inline"}}>Ingredients</h5>
         {ingredients && <Card.Text>{ingredients}</Card.Text>}
-        <i class="fa-solid fa-list-ol"></i>
-        <h4>Steps</h4>
+        <i id="steps-icon" class="fa-solid fa-list-ol"></i>
+        <h5 style={{display: "inline"}}>Steps</h5>
         {steps && <Card.Text>{steps}</Card.Text>}
         <div className={styles.RecipeBar}>
           {is_owner ? (
