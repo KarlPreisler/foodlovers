@@ -102,8 +102,16 @@ const Recipe = (props) => {
         {title && <Card.Title className="text-center">{title}</Card.Title>}
         {desc && <Card.Text>{desc}</Card.Text>}
         <i id="clock-icon" class="fas fa-clock" ></i>
-        <h5 style={{display: "inline"}}>Cooking time</h5>
-        {cooking_time && <Card.Text>{cooking_time}</Card.Text>}
+        {cooking_time && (
+  <Card.Text>
+    {`${cooking_time.split(":")[0] !== "00" ? (cooking_time.split(
+      ":")[0] < 10 ? cooking_time.split(":")[0].substring(1) : cooking_time.split(
+      ":")[0]) + "h " : ""}${cooking_time.split(":")[1] !== "00" ? (
+      cooking_time.split(":")[1] < 10 ? cooking_time.split(":")[1].substring(
+      1) : cooking_time.split(":")[1]) + " minutes" : ""}`}
+  </Card.Text>
+)}
+        <br/>
         <i id="list-icon" class="fa-solid fa-list"></i>
         <h5 style={{display: "inline"}}>Ingredients</h5>
         {ingredients && <Card.Text>{ingredients}</Card.Text>}
