@@ -104,6 +104,7 @@ const Recipe = (props) => {
         <i id="clock-icon" class="fas fa-clock" ></i>
         {cooking_time && (
   <Card.Text>
+    
     {`${cooking_time.split(":")[0] !== "00" ? (cooking_time.split(
       ":")[0] < 10 ? cooking_time.split(":")[0].substring(1) : cooking_time.split(
       ":")[0]) + "h " : ""}${cooking_time.split(":")[1] !== "00" ? (
