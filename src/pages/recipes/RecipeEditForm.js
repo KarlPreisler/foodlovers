@@ -25,9 +25,8 @@ function RecipeEditForm() {
     ingredients: "",
     steps: "",
     image: "",
-    category: "",
   });
-  const { title, desc, cooking_time, ingredients, steps, image, category } = recipeData;
+  const { title, desc, cooking_time, ingredients, steps, image } = recipeData;
 
   const imageInput = useRef(null);
   const history = useHistory();
@@ -37,9 +36,9 @@ function RecipeEditForm() {
     const handleMount = async () => {
       try {
         const { data } = await axiosReq.get(`/recipes/${id}/`);
-        const { title, desc, cooking_time, ingredients, steps, image, category, is_owner } = data;
+        const { title, desc, cooking_time, ingredients, steps, image, is_owner } = data;
 
-        is_owner ? setRecipeData({ title, desc, cooking_time, ingredients, steps, image, category }) : history.push("/");
+        is_owner ? setRecipeData({ title, desc, cooking_time, ingredients, steps, image }) : history.push("/");
       } catch (err) {
         console.log(err);
       }
@@ -75,7 +74,6 @@ function RecipeEditForm() {
     formData.append("ingredients", ingredients);
     formData.append("steps", steps);
     formData.append("image", imageInput.current.files[0]);
-    formData.append("category", category);
 
     if (imageInput?.current?.files[0]) {
         formData.append("image", imageInput.current.files[0]);
@@ -199,7 +197,7 @@ function RecipeEditForm() {
               </figure>
               <div>
                 <Form.Label
-                  className={`${btnStyles.Button} ${btnStyles.Blue} btn`}
+                  className={`${btnStyles.Button} ${btnStyles.Green} btn`}
                   htmlFor="image-upload"
                 >
                   Change the image
