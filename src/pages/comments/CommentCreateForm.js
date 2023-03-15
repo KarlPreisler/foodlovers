@@ -44,7 +44,7 @@ function CommentCreateForm(props) {
       setContent("");
       setRating("");
     } catch (err) {
-      console.log(err);
+      // console.log(err);
     }
   };
 
