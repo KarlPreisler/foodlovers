@@ -16,4 +16,6 @@
     cursor: default;
     color: #cfced3;
   }
-  
+  p {
+    white-space: pre-wrap;
+  }

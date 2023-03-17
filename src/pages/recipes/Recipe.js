@@ -114,7 +114,7 @@ const Recipe = (props) => {
 )}
         <i id="list-icon" class="fa-solid fa-list"></i>
         <h5 style={{display: "inline"}}>Ingredients</h5>
-        {ingredients && <Card.Text className="text-left">{ingredients}</Card.Text>}
+        {ingredients && <Card.Text className="text-center">{ingredients}</Card.Text>}
         <i id="steps-icon" class="fa-solid fa-list-ol"></i>
         <h5 style={{display: "inline"}}>Steps</h5>
         {steps && <Card.Text className="text-left">{steps}</Card.Text>}
