@@ -101,7 +101,7 @@ const Recipe = (props) => {
       <Card.Body>
         {title && <Card.Title className="text-center">{title}</Card.Title>}
         {desc && <Card.Text>{desc}</Card.Text>}
-        <i id="clock-icon" class="fas fa-clock" ></i>
+        <i style={{color: "green"}}class="fas fa-clock" ></i>
         {cooking_time && (
   <Card.Text>
     
@@ -112,10 +112,10 @@ const Recipe = (props) => {
       1) : cooking_time.split(":")[1]) + " minutes" : ""}`}
   </Card.Text>
 )}
-        <i id="list-icon" class="fa-solid fa-list"></i>
+        <i style={{color: "green"}} class="fa-solid fa-list"></i>
         <h5 style={{display: "inline"}}>Ingredients</h5>
         {ingredients && <Card.Text className="text-center">{ingredients}</Card.Text>}
-        <i id="steps-icon" class="fa-solid fa-list-ol"></i>
+        <i style={{color: "green"}} class="fa-solid fa-list-ol"></i>
         <h5 style={{display: "inline"}}>Steps</h5>
         {steps && <Card.Text className="text-left">{steps}</Card.Text>}
         <div className={styles.RecipeBar}>
