@@ -121,6 +121,11 @@ User stories are being tracked using GitHub Projects. All User Stories have been
 
 ![Screenshot 2023-03-18 212040](https://user-images.githubusercontent.com/114813115/226136504-5f39197e-b718-4d09-9432-86af0457e743.png)
 
+## Wireframes
+Below is the wireframe for the home page sketched for the desktop version of the website. I have followed this wireframe throughout the creation of the project and the final version of the website closely resembled the wireframe.
+
+![Screenshot 2023-03-18 233314](https://user-images.githubusercontent.com/114813115/226143767-c99e781a-4da4-4f75-99cf-d3692ae9d4ac.png)
+
 ## Features
 
 ### Navigation bar
