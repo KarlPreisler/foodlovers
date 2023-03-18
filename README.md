@@ -57,7 +57,9 @@ When designing the layout of the website I created Wireframes for the landing pa
   - The navigation bar features a Logo the left, that acts as a link to the home page. The navigation bar has a consistent placement on each page making the website easy to navigate. The navigation bar is responsive, logo size, text and icons adapts to different screen sizes.
 The navigation bar features links to the Home, Sign in and Sign up pages. If the user is logged in however, the navigation bar will include links to the following pages: Add recipe, Home, Feed, Liked, Followed and Profile.
 
+Signed in:
 ![Screenshot 2023-03-18 015634](https://user-images.githubusercontent.com/114813115/226074636-cfeb855f-38d0-4944-9567-03980f1642ba.png)
+Signed out:
 ![Screenshot 2023-03-18 015714](https://user-images.githubusercontent.com/114813115/226074655-2d0cd3d0-df13-4c8d-9412-4ed5cddfdade.png)
 
 ## The Search bar
