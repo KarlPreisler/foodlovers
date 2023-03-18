@@ -46,6 +46,7 @@ The objective of this project was to create a website application that provides 
 **User Stories**: 
 
 User stories are being tracked using GitHub Projects. All User Stories have been divided into Acceptance Criteria and Tasks. 
+![Screenshot 2023-03-18 212040](https://user-images.githubusercontent.com/114813115/226136504-5f39197e-b718-4d09-9432-86af0457e743.png)
 
 ### Wireframes
 When designing the layout of the website I created Wireframes for the landing page and home page:
@@ -165,6 +166,12 @@ Automatic tests for the navbar component:
 - I have made sure that all functionality work properly and the website works as intended.
 - I have made sure that all buttons functionality is working.
 - I have made sure that the website is responsive to all devices, using react-bootstrap and CSS to make website adapt to different screen sizes.
+
+![Screenshot 2023-03-18 211754](https://user-images.githubusercontent.com/114813115/226136319-6e948820-e3b2-46ec-b8a7-f09299253ac2.png)
+![Screenshot 2023-03-18 211846](https://user-images.githubusercontent.com/114813115/226136361-61d1e202-f833-417c-87dd-98d118e86174.png)
+![Screenshot 2023-03-18 211908](https://user-images.githubusercontent.com/114813115/226136363-0d9606f6-6b44-448b-81ad-f0c8c956c3ad.png)
+
+
 
 ### Lighthouse Testing 
 I tested the landing page using DevTools Lighthouse test, this is the report I received.
