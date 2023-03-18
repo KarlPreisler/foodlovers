@@ -58,27 +58,44 @@ When designing the layout of the website I created Wireframes for the landing pa
   - The navigation bar features a Logo the left, that acts as a link to the home page. The navigation bar has a consistent placement on each page making the website easy to navigate. The navigation bar is responsive, logo size, text and icons adapts to different screen sizes.
 The navigation bar features links to the Home, Sign in and Sign up pages. If the user is logged in however, the navigation bar will include links to the following pages: Add recipe, Home, Feed, Liked, Followed and Profile.
 
+![Screenshot 2023-03-18 015634](https://user-images.githubusercontent.com/114813115/226074636-cfeb855f-38d0-4944-9567-03980f1642ba.png)
+![Screenshot 2023-03-18 015714](https://user-images.githubusercontent.com/114813115/226074655-2d0cd3d0-df13-4c8d-9412-4ed5cddfdade.png)
+
 ## The Search bar
+The Search bar allows users to search for recipes by their owner's username, title, description and steps. 
+
+![Screenshot 2023-03-18 015758](https://user-images.githubusercontent.com/114813115/226074683-223b9c42-a3e5-4a12-ab14-31c17f73eb81.png)
 
 ## The Home Page
 The Home Page displays the posted recipes by all users, sorted by most recently created post first. The Home Page uses a infinite scroll functionality in order to provide users with the ability to seemlessly scroll through recipes without having to press "Next Page" etc.
 The owners name, date of creation or when it was last updated, as well as all content of an individual recipe is visible to the user when scrolling through the Home Page content, except for posted comments and rating.
 
+![Screenshot 2023-03-18 020010](https://user-images.githubusercontent.com/114813115/226074778-13610367-b581-4b88-bd60-0d29e120c2e1.png)
+
 ## The Popular Profiles Component
 The Popular Profiles Component is visible on the Home, Feed, Liked and Profile pages. It displays the most followed profiles to the right of the content on the page on desktop, and in the center below the navigation bar on mobile devices. 
+
+![Screenshot 2023-03-18 020043](https://user-images.githubusercontent.com/114813115/226074794-a494978f-c07a-4730-8a29-4e5d6381aa69.png)
 
 ## The Recipe Page
 The Recipe Page is the page displaying an individual recipe, including all content of the recipe as well as any likes and comments. When viewing an individual recipe that you are the owner of, the possibility to update or delete the recipe is available in the form of a dropdown menu to the right of the creation date.
 A comment is displayed with the comments owner's username, avatar, date of comments creation or when it was last updated, and the rating, users can create, read, update and delete any comment providing full CRUD functionality.
 
-## The Sign up Page
+![Screenshot 2023-03-18 020222](https://user-images.githubusercontent.com/114813115/226074879-1e62b770-c2ee-44e6-b1fe-b15f82c075e9.png)
 
-## The Sign In Page
+![Screenshot 2023-03-18 020444](https://user-images.githubusercontent.com/114813115/226074995-c3761ad2-14d1-416b-a90a-e623a4818662.png)
+
+## The Sign up Page
+The Sign up Page allows users to create an account with the website that will be stored in the API, in order to perform user functionality such as editing your profile or liking recipes. The page contains a form for creating an account and a link to the Sign in page.
+
+## The Sign in Page
+The Sign up Page allows users to sign in to their account which enables user functionality such as editing your profile or liking recipes. The page contains a form for signing in and a link to the Sign up page for new users.
 
 ## The Liked Page
+The Liked Page contains all recipes that the user has liked, listed by the most recently liked recipes first.
 
 ## The Feed Page
-
+The Feed Page contains all recipes posted by users that you are following, listed by the most recently created recipes first.
 
 ## Languages
 
