@@ -223,9 +223,6 @@ Users with an account have the possibility to upload a profile image and Bio to 
 
 ## Testing
 
-Automatic tests for the navbar component: 
-
-
 ### Manual testing:
 - I have tested that this website works appropriately in the following browsers: Chrome, Firefox and Safari.
 - I have made sure that all authorization and authentication functionality is working as intended.
@@ -240,7 +237,11 @@ Automatic tests for the navbar component:
 ![Screenshot 2023-03-18 211846](https://user-images.githubusercontent.com/114813115/226136361-61d1e202-f833-417c-87dd-98d118e86174.png)
 ![Screenshot 2023-03-18 211908](https://user-images.githubusercontent.com/114813115/226136363-0d9606f6-6b44-448b-81ad-f0c8c956c3ad.png)
 
+### Automatic testing:
 
+Automatic testing have been used for testing the navbar component: 
+
+![TestPP5](https://user-images.githubusercontent.com/114813115/226142252-8fa92855-95b4-402d-ac50-57e36438a2d4.png)
 
 ### Lighthouse Testing 
 I tested the landing page using DevTools Lighthouse test, this is the report I received.
@@ -257,7 +258,7 @@ I tested the landing page using DevTools Lighthouse test, this is the report I r
 - The CSS was validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator), all code passed without warnings or errors.
 
 ## Bugs
-- I ran into multiple bugs while creating this project. 
+- There are no unfixed bugs.
 
 ## Deployment
 
