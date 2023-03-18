@@ -58,6 +58,28 @@ When designing the layout of the website I created Wireframes for the landing pa
   - The navigation bar features a Logo the left, that acts as a link to the home page. The navigation bar has a consistent placement on each page making the website easy to navigate. The navigation bar is responsive, logo size, text and icons adapts to different screen sizes.
 The navigation bar features links to the Home, Sign in and Sign up pages. If the user is logged in however, the navigation bar will include links to the following pages: Add recipe, Home, Feed, Liked, Followed and Profile.
 
+## The Search bar
+
+## The Home Page
+The Home Page displays the posted recipes by all users, sorted by most recently created post first. The Home Page uses a infinite scroll functionality in order to provide users with the ability to seemlessly scroll through recipes without having to press "Next Page" etc.
+The owners name, date of creation or when it was last updated, as well as all content of an individual recipe is visible to the user when scrolling through the Home Page content, except for posted comments and rating.
+
+## The Popular Profiles Component
+The Popular Profiles Component is visible on the Home, Feed, Liked and Profile pages. It displays the most followed profiles to the right of the content on the page on desktop, and in the center below the navigation bar on mobile devices. 
+
+## The Recipe Page
+The Recipe Page is the page displaying an individual recipe, including all content of the recipe as well as any likes and comments. When viewing an individual recipe that you are the owner of, the possibility to update or delete the recipe is available in the form of a dropdown menu to the right of the creation date.
+A comment is displayed with the comments owner's username, avatar, date of comments creation or when it was last updated, and the rating, users can create, read, update and delete any comment providing full CRUD functionality.
+
+## The Sign up Page
+
+## The Sign In Page
+
+## The Liked Page
+
+## The Feed Page
+
+
 ## Languages
 
 - [HTML](https://en.wikipedia.org/wiki/HTML5)
