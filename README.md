@@ -45,12 +45,81 @@ The objective of this project was to create a website application that provides 
 
 **User Stories**: 
 
+### Navigation & Authentication
+
+- Navigation: As a user I can view a navbar from every page so that I can navigate easily between pages
+
+- Authentication - Sign up: As a user I can create a new account so that I can access all the features for signed up users
+
+- Authentication - Sign in: As a user I can sign in to the app so that I can access functionality for logged in users
+
+- Authentication - Logged in Status: As a user I can tell if I am logged in or not so that I can log in if I need to
+
+- Authentication - Refreshing access tokens: As a user I can maintain my logged-in status until I choose to log out so that my user experience is not compromised
+
+- Navigation: Conditional rendering - As a logged out user I can see sign in and sign up options so that I can sign in/sign up
+
+- Avatar: As a user I can view user's avatars so that I can easily identify users of the application
+
+
+### Adding & Liking Recipes
+
+- Create recipes: As a logged in user I can create posts so that I can share my recipes with the world!
+
+- View a recipe: As a user I can view the details of a single recipe so that I can learn more about it.
+
+- Like a recipe: As a logged in user I can like a recipes so that I can show my support for the recipes that interest me
+
+### The recipes Page
+
+- View most recent recipes: 
+As a user I can view all the most recent recipes, ordered by most recently created first so that I am up to date with the newest content
+
+- Search bar:
+As a user, I can search for recipes with keywords, so that I can find the recipes and user profiles I am most interested in.
+
+- View liked recipes: 
+As a logged in user I can view the recipes I liked so that I can find the recipes I enjoy the most
+
+- View recipes of followed users: As a logged in user I can view content filtered by users I follow so that I can keep up to date with what they are posting about
+
+- Infinite scroll: As a user I can keep scrolling through the images on the site, that are loaded for me automatically so that I don't have to click on "next page" etc
+
+### The Recipe Page
+
+- Recipe page: As a user I can view a recipes page so that I can view that individual recipe.
+
+- Edit recipe: As a recipe owner I can edit my recipes title and description so that I can make corrections or update my recipes after it was created
+
+- Create a comment: As a logged in user I can add comments to a recipe so that I can share my thoughts about the recipe
+
+- Comment date: As a user I can see how long ago a comment was made so that I know how old a comment is
+
+- View comments: As a user I can read comments on recipes so that I can read what other users think about the recipes
+
+- Delete comments: As an owner of a comment I can delete my comment so that I can control removal of my comment from the application
+
+- Edit a comment: As an owner of a comment I can edit my comment so that I can fix or update my existing comment
+
+### The Profile Page
+
+- Profile page: As a user I can view other users profiles so that I can see their recipes and learn more about them
+
+- Most followed profiles: As a user I can see a list of the most followed profiles so that I can see which profiles are popular
+
+- User profile - user stats: As a user I can view statistics about a specific user: bio, number of recipes, follows and users followed so that I can learn more about them
+
+- Follow/Unfollow a user: As a logged in user I can follow and unfollow other users so that I can see and remove recipes by specific users in my recipes feed
+
+- View all recipes by a specific user: As a user I can view all the recipes by a specific user so that I can catch up on their latest recipes, or decide I want to follow them
+
+- Edit profile: As a logged in user I can edit my profile so that I can change my profile picture and bio
+
+- Update username and password: As a logged in user I can update my username and password so that I can change my display name and keep my profile secure
+
 User stories are being tracked using GitHub Projects. All User Stories have been divided into Acceptance Criteria and Tasks. 
+
 ![Screenshot 2023-03-18 212040](https://user-images.githubusercontent.com/114813115/226136504-5f39197e-b718-4d09-9432-86af0457e743.png)
-
-### Wireframes
-When designing the layout of the website I created Wireframes for the landing page and home page:
-
 
 ## Features
 
