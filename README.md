@@ -51,7 +51,6 @@ User stories are being tracked using GitHub Projects. All User Stories have been
 When designing the layout of the website I created Wireframes for the landing page and home page:
 
 
-
 ## Features
 
 ### Navigation bar
@@ -62,7 +61,7 @@ The navigation bar features links to the Home, Sign in and Sign up pages. If the
 ![Screenshot 2023-03-18 015714](https://user-images.githubusercontent.com/114813115/226074655-2d0cd3d0-df13-4c8d-9412-4ed5cddfdade.png)
 
 ## The Search bar
-The Search bar allows users to search for recipes by their owner's username, title, description and steps. 
+The Search bar allows users to search for recipes by the owner's username, title, description and steps. 
 
 ![Screenshot 2023-03-18 015758](https://user-images.githubusercontent.com/114813115/226074683-223b9c42-a3e5-4a12-ab14-31c17f73eb81.png)
 
@@ -71,6 +70,7 @@ The Home Page displays the posted recipes by all users, sorted by most recently 
 The owners name, date of creation or when it was last updated, as well as all content of an individual recipe is visible to the user when scrolling through the Home Page content, except for posted comments and rating.
 
 ![Screenshot 2023-03-18 020010](https://user-images.githubusercontent.com/114813115/226074778-13610367-b581-4b88-bd60-0d29e120c2e1.png)
+![Screenshot 2023-03-18 021929](https://user-images.githubusercontent.com/114813115/226075600-c38cffff-7012-4e3d-bc0b-1de080e45d6a.png)
 
 ## The Popular Profiles Component
 The Popular Profiles Component is visible on the Home, Feed, Liked and Profile pages. It displays the most followed profiles to the right of the content on the page on desktop, and in the center below the navigation bar on mobile devices. 
@@ -83,19 +83,31 @@ A comment is displayed with the comments owner's username, avatar, date of comme
 
 ![Screenshot 2023-03-18 020222](https://user-images.githubusercontent.com/114813115/226074879-1e62b770-c2ee-44e6-b1fe-b15f82c075e9.png)
 
-![Screenshot 2023-03-18 020444](https://user-images.githubusercontent.com/114813115/226074995-c3761ad2-14d1-416b-a90a-e623a4818662.png)
+![Screenshot 2023-03-18 020444](https://user-images.githubusercontent.com/114813115/226075665-e15ef97c-3154-440e-bf9b-16bf8cd86935.png)
 
 ## The Sign up Page
 The Sign up Page allows users to create an account with the website that will be stored in the API, in order to perform user functionality such as editing your profile or liking recipes. The page contains a form for creating an account and a link to the Sign in page.
 
+![Screenshot 2023-03-18 020701](https://user-images.githubusercontent.com/114813115/226075114-cf695f05-8784-4771-b2f1-5e85e6d0f764.png)
+
 ## The Sign in Page
 The Sign up Page allows users to sign in to their account which enables user functionality such as editing your profile or liking recipes. The page contains a form for signing in and a link to the Sign up page for new users.
 
+![Screenshot 2023-03-18 020544](https://user-images.githubusercontent.com/114813115/226075119-1d339a97-843d-4a85-b21e-ad51822ef4ff.png)
+
 ## The Liked Page
 The Liked Page contains all recipes that the user has liked, listed by the most recently liked recipes first.
+![Screenshot 2023-03-18 020851](https://user-images.githubusercontent.com/114813115/226075188-92ab7f1b-40dc-4e41-8993-eb7b51a0fcc1.png)
 
 ## The Feed Page
 The Feed Page contains all recipes posted by users that you are following, listed by the most recently created recipes first.
+![Screenshot 2023-03-18 020900](https://user-images.githubusercontent.com/114813115/226075193-38987910-867a-4ef3-9feb-a2d60fa3c189.png)
+
+## The Profile Page
+The Profile Page contains all recipes from that specific owner, along with the users profile image and bio. Users are able to view the number of recipes another user has, along with the number of followers and people they follow. 
+Users with an account have the possibility to upload a profile image and Bio to their profile in order for others to see when viewing their profile page. They also have the option to update their username or password, along with editing their profile image and bio. 
+
+![Screenshot 2023-03-18 021643](https://user-images.githubusercontent.com/114813115/226075495-8123f887-cb0d-4ca8-9acd-551e7adbfcb8.png)
 
 ## Languages
 
