@@ -145,18 +145,21 @@ The Search bar allows users to search for recipes by the owner's username, title
 ## The Home Page
 The Home Page displays the posted recipes by all users, sorted by most recently created post first. The Home Page uses a infinite scroll functionality in order to provide users with the ability to seemlessly scroll through recipes without having to press "Next Page" etc.
 The owners name, date of creation or when it was last updated, as well as all content of an individual recipe is visible to the user when scrolling through the Home Page content, except for posted comments and rating.
+- The reuse of components have been implemented to demonstrate an understanding of the React architecture, such as the card for displaying a recipe and the Popular profiles components.
 
 ![Screenshot 2023-03-18 020010](https://user-images.githubusercontent.com/114813115/226074778-13610367-b581-4b88-bd60-0d29e120c2e1.png)
 ![Screenshot 2023-03-18 021929](https://user-images.githubusercontent.com/114813115/226075600-c38cffff-7012-4e3d-bc0b-1de080e45d6a.png)
 
 ## The Popular Profiles Component
 The Popular Profiles Component is visible on the Home, Feed, Liked and Profile pages. It displays the most followed profiles to the right of the content on the page on desktop, and in the center below the navigation bar on mobile devices. 
+- This component is reused throughout the project.
 
 ![Screenshot 2023-03-18 020043](https://user-images.githubusercontent.com/114813115/226074794-a494978f-c07a-4730-8a29-4e5d6381aa69.png)
 
 ## The Recipe Page
 The Recipe Page is the page displaying an individual recipe, including all content of the recipe as well as any likes and comments. When viewing an individual recipe that you are the owner of, the possibility to update or delete the recipe is available in the form of a dropdown menu to the right of the creation date.
-A comment is displayed with the comments owner's username, avatar, date of comments creation or when it was last updated, and the rating, users can create, read, update and delete any comment providing full CRUD functionality.
+A comment is displayed with the comments owner's username, avatar, date of comments creation or when it was last updated, and the rating.
+Users can create, read, update and delete any comment providing full CRUD functionality.
 
 ![Screenshot 2023-03-18 020222](https://user-images.githubusercontent.com/114813115/226074879-1e62b770-c2ee-44e6-b1fe-b15f82c075e9.png)
 
