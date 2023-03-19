@@ -12,11 +12,11 @@ The website is fully responsive, providing users with the possibility of accessi
 ## Index - Table of Contents
 
 * [Project Goals](#project-goals)
-* [User Experience](#user-experience-(UX))
+* [User Experience (UX)](#user-experience--ux-)
 * [Wireframes](#wireframes)
 * [Features](#features)
 * [Languages](#languages)
-* [Programs, libraries, frameworks, dependencies and media](#programs,libraries,frameworks,dependencies-and-media)
+* [Programs, libraries, frameworks, dependencies and media](#programs--libraries--frameworks--dependencies-and-media)
 * [Testing](#testing)
 * [Bugs](#bugs)
 * [Deployment](#deployment)
